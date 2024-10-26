@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # Load the image
-image = Image.open('region2022.png')
+image = Image.open('regions2022.png')
 image2 = Image.open('region2023.png')
 
 st.write('a')
@@ -11,7 +11,7 @@ st.markdown("<h1 style='text-align: center;'>المناطق الأكثر توظ�
 st.markdown("<h5 style='text-align: center;'>تسعى المملكة إلى توفير فرص العمل عبر موقع جدارات لتسهيل عملية البحث للباحثين عن العمل. تعتبر منصة جدارات الوطنية الموحدة للتوظيف أداة فعالة تهدف إلى تحسين آلية إعلان الوظائف في جميع القطاعات، مما يسهل على الباحثين عن عمل الوصول إلى الفرص المتاحة</h5>", unsafe_allow_html=True)
 
 # Center the image using Streamlit's layout
-col1, col2, col3 = st.columns([1, 2, 1])  # Create three columns
+col1, col2, col3 = st.columns([1, 5, 1])  # Create three columns
 
 with col1:
     st.write("")  # Empty space in the first column
@@ -28,7 +28,7 @@ st.markdown("<h5 style='text-align: center;'>تُشكل الرياض 43% من إ
 
 
 # Center the image using Streamlit's layout
-col1, col2, col3 = st.columns([1, 2, 1])  # Create three columns
+col1, col2, col3 = st.columns([1, 5, 1])  # Create three columns
 
 with col1:
     st.write("")  # Empty space in the first column
@@ -39,4 +39,4 @@ with col2:
 
 with col3:
     st.write("")  # Empty space in the third column
-
+st.markdown("<h5 style='text-align: center;'>في عام 2023، ارتفعت نسبة الوظائف في الرياض إلى 47.5%، مما يعكس النمو المستمر في السوق المحلي. يعود هذا الارتفاع إلى الاستثمارات المتزايدة في المجالات، مما أسهم في توفير المزيد من الفرص الوظيفية. تظل الرياض وجهة رئيسية للباحثين عن العمل في المملكة.</h5>", unsafe_allow_html=True)
