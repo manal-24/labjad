@@ -16,7 +16,7 @@ with col1:
 
 with col2:
     st.image(image, width=200)  # Center the image in the second column
-    st.image(image2, width=200)
+
 
 with col3:
     st.write("")  # Empty space in the third column
